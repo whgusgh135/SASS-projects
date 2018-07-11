@@ -1,0 +1,13 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    // defines base font as 10px = 1rem
+    font-size: 62.5%;
+    box-sizing: border-box;
+}

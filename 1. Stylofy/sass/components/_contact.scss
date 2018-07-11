@@ -1,0 +1,9 @@
+.contact {
+    &__text-box {
+        color: $color-grey-dark;
+    }
+
+    &__logo {
+        transform: translateY(-3rem);
+    }
+}
