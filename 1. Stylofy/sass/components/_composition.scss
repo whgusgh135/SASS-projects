@@ -18,11 +18,19 @@
         &--p1 {
             top: -2rem;
             right: 0;
+            
+            @include respond(tab-port) {
+                top: 1rem;
+            }
         }
 
         &--p2 {
             top: -8rem;
-            left: 1rem;   
+            left: 1rem;  
+            
+            @include respond(tab-port) {
+                top: -1rem;
+            }
         }
 
         &:hover {
