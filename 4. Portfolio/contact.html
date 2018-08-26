@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+
+        <title>Kevin - Porfolio</title>
+    </head>
+    <body>
+        <nav class="nav">
+            <div class="nav__section">
+                <a href="#" class="nav__link u-margin-top-none">
+                    <img class="nav__logo" src="img/logo-primary.png">
+                    <p class="nav__text u-margin-top-none">Kevin</p>
+                </a> 
+            </div>
+            <div class="nav__section">
+                <a href="index.html" class="nav__link">
+                    <p class="nav__item">Home</p>
+                    <svg class="nav__icon">
+                        <use href="img/sprite.svg#icon-home-outline"></use>
+                    </svg>
+                </a>
+                <a href="about.html" class="nav__link">
+                    <p class="nav__item">About</p>
+                    <svg class="nav__icon">
+                        <use href="img/sprite.svg#icon-pencil"></use>
+                    </svg>
+                </a>
+                <a href="work.html" class="nav__link">
+                    <p class="nav__item">My Work</p>
+                    <svg class="nav__icon">
+                        <use href="img/sprite.svg#icon-folder"></use>
+                    </svg>
+                </a>
+                <a href="contact.html" class="nav__link">
+                    <p class="nav__item">Contact</p>
+                    <svg class="nav__icon">
+                        <use href="img/sprite.svg#icon-mail"></use>
+                    </svg>
+                </a>
+            </div>
+            <div class="nav__section">
+                <a href="https://github.com/whgusgh135" target="_blank" class="nav__link">
+                    <p class="nav__item">Github</p>
+                    <svg class="nav__icon nav__icon--small">
+                        <use href="img/sprite.svg#icon-github"></use>
+                    </svg>
+                </a>
+                <a href="https://www.facebook.com/hyunho.cho.566" target="_blank" class="nav__link">
+                    <p class="nav__item">Facebook</p>
+                    <svg class="nav__icon nav__icon--small">
+                        <use href="img/sprite.svg#icon-facebook2"></use>
+                    </svg>
+                </a>
+            </div>
+        </nav>
+
+        <main class="main">
+            <canvas class="canvas__home"></canvas>
+            <div class="contact">
+                <h3 class="heading-primary">
+                    <span class="highlight-primary">Contact Info</span>
+                </h3>
+                <p class="paragraph-primary">
+                    Email me at hcho163@aucklanduni.ac.nz
+                </p>
+            </div>
+        </main>
+
+        <script type="text/javascript" src="canvas.js"></script>
+    </body>
+</html>

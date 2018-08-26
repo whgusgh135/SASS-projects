@@ -1,0 +1,19 @@
+.section-about {
+    background-color: $color-secondary-light;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.section-features {
+    background-color: $color-grey-light;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5rem;
+    padding: 10rem 5rem;
+}
+
+.section-songlist {
+    background-color: $color-secondary-light;
+}

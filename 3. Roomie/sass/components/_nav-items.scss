@@ -1,0 +1,20 @@
+.nav-items {
+    
+    &__logo {
+        height: 4.5rem;
+        width: 4.5rem;
+    }
+
+    &__search-bar {
+        border: none;
+        border-radius: 50px;
+        height: 2.5rem;
+        background-color: $color-grey-light;
+    }
+
+    &__profile {
+        height: 4.5rem;
+        width: 4.5rem;
+        border-radius: 50px;
+    }
+}

@@ -1,0 +1,9 @@
+.container {
+    display: grid;
+    grid-template-rows: 6rem min-content;
+    grid-template-columns:  [sidebar-start] 25rem
+                            [sidebar-end full-start] minmax(4rem, 1fr)
+                            [center-start] 1fr
+                            [center-end] minmax(4rem, 1fr)
+                            [full-end];
+}

@@ -1,0 +1,15 @@
+.side-items {
+    
+
+    &__profile-info {
+        color: $color-primary-light;
+        font-size: 2rem;
+    }
+
+    &__profile-img {
+        width: 8rem;
+        height: 8rem;
+        border-radius: 50px;
+    }
+    
+}

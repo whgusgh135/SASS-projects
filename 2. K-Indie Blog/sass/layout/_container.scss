@@ -1,0 +1,4 @@
+.container {
+    display: grid;
+    grid-template-rows: 5rem calc(100vh - 5rem) 60vh 40vw min-content 20vh;
+}

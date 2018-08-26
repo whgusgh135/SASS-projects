@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+
+        <title>Kevin - Porfolio</title>
+    </head>
+    <body>
+        <nav class="nav">
+            <div class="nav__section">
+                <a href="#" class="nav__link u-margin-top-none">
+                    <img class="nav__logo" src="img/logo-primary.png">
+                    <p class="nav__text u-margin-top-none">Kevin</p>
+                </a> 
+            </div>
+            <div class="nav__section">
+                <a href="index.html" class="nav__link">
+                    <p class="nav__item">Home</p>
+                    <svg class="nav__icon">
+                        <use href="img/sprite.svg#icon-home-outline"></use>
+                    </svg>
+                </a>
+                <a href="about.html" class="nav__link">
+                    <p class="nav__item">About</p>
+                    <svg class="nav__icon">
+                        <use href="img/sprite.svg#icon-pencil"></use>
+                    </svg>
+                </a>
+                <a href="work.html" class="nav__link">
+                    <p class="nav__item">My Work</p>
+                    <svg class="nav__icon">
+                        <use href="img/sprite.svg#icon-folder"></use>
+                    </svg>
+                </a>
+                <a href="contact.html" class="nav__link">
+                    <p class="nav__item">Contact</p>
+                    <svg class="nav__icon">
+                        <use href="img/sprite.svg#icon-mail"></use>
+                    </svg>
+                </a>
+            </div>
+            <div class="nav__section">
+                <a href="https://github.com/whgusgh135" target="_blank" class="nav__link">
+                    <p class="nav__item">Github</p>
+                    <svg class="nav__icon nav__icon--small">
+                        <use href="img/sprite.svg#icon-github"></use>
+                    </svg>
+                </a>
+                <a href="https://www.facebook.com/hyunho.cho.566" target="_blank" class="nav__link">
+                    <p class="nav__item">Facebook</p>
+                    <svg class="nav__icon nav__icon--small">
+                        <use href="img/sprite.svg#icon-facebook2"></use>
+                    </svg>
+                </a>
+            </div>
+        </nav>
+
+        <main class="main">
+            <canvas class="canvas__home"></canvas>
+            <div class="about">
+                <div class="text-area">
+                    <h3 class="heading-primary"><span class="highlight-primary">About me</span></h3>
+                    
+                    <p class="paragraph-secondary u-margin-top-small">2 years ago, I was a chemist.</p>
+                    <p class="paragraph-secondary">But my interest in coding inspired me to</p>
+                    <p class="paragraph-secondary">get a Computer Science degree</p>
+                    <p class="paragraph-secondary">and self-teach web developemnet!</p>
+
+                    <p class="paragraph-secondary u-margin-top-small">I mainly code in Javascript.</p>
+                    <p class="paragraph-secondary">And I am comfortable developing a full stack app</p>
+                    <p class="paragraph-secondary">using React-Redux, Node, Express, and MongoDB.</p>
+
+                    <p class="paragraph-secondary u-margin-top-small">I also have broad knowledge in other languages.</p>
+                    <p class="paragraph-secondary">Check out all my skils!</p>
+
+                    <button class="btn btn-primary u-margin-top-small">Find out more</button>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-box__container">
+                        <h4 class="feature-box__heading">
+                            Front-end
+                        </h4>
+                        <ul class="feature-box__list-box">
+                            <li class="feature-box__list">
+                                Language - HTML, Javascript, ES6, Typescript, CSS, SASS
+                            </li>
+                            <li class="feature-box__list">
+                                Library - jQuery, ReactJS, Redux, AngularJs, Bootstrap
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="feature-box__container">
+                        <h4 class="feature-box__heading">
+                            Back-end
+                        </h4>
+                        <ul class="feature-box__list-box">
+                            <li class="feature-box__list">
+                                Language - NodeJS, ExpressJS, AJAX, RESTful APIs
+                            </li>
+                            <li class="feature-box__list">
+                                Database - NoSQL(MongoDB)
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="feature-box__container">
+                        <h4 class="feature-box__heading">
+                            Others
+                        </h4>
+                        <ul class="feature-box__list-box">
+                            <li class="feature-box__list">
+                                Git, Github, AWS, Firebase, Heroku
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        
+        <script type="text/javascript" src="canvas.js"></script>
+    </body>
