@@ -3,6 +3,7 @@
     &__logo {
         height: 4.5rem;
         width: 4.5rem;
+        margin-left: 2rem;
     }
 
     &__search-bar {
@@ -10,11 +11,21 @@
         border-radius: 50px;
         height: 2.5rem;
         background-color: $color-grey-light;
+        padding: 0 2rem 0 2rem;
     }
 
     &__profile {
-        height: 4.5rem;
-        width: 4.5rem;
-        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        
+        &--img {
+            height: 4.5rem;
+            width: 4.5rem;
+            border-radius: 50px;
+        }
+
+        &--name {
+            padding: 1rem;
+        }
     }
 }

@@ -1,0 +1,41 @@
+.team-box {
+    display: flex;
+    padding: 2rem;
+    position: relative;
+
+    &:not(:last-child) {
+        padding-right: 0;
+    }
+
+    &:hover .team-box__text-box {
+        display: block;
+    }
+
+    &:hover .team-box__image {
+        border: 3px solid $color-primary-dark;
+        color: $color-primary-dark;
+    }
+
+    &__image {
+        height: 7rem;
+        width: 7rem;
+        border: 3px solid $color-grey-dark-2;
+
+        &--last {
+            background-color: $color-grey-dark-2;
+            padding-left: .7rem;
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    &__text-box {
+        display: none;
+        padding: 1rem;
+        position: absolute;
+        top: 90%;
+        width: max-content;
+        z-index: 5;
+        background-color: $color-grey-dark-2;
+    }
+}

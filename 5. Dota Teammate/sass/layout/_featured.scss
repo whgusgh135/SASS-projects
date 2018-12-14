@@ -1,0 +1,13 @@
+.featured {
+    background-color: rgba($color-grey-dark-1, 0.6);
+    color: $color-white;
+    width: 70vw;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    &__heading {
+        width: 100%;
+        padding: 2rem;
+    }
+}

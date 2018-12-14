@@ -1,0 +1,18 @@
+.home {
+    height: calc(100vh - 6rem);
+    width: min(100vw);
+    margin-top: 6rem;
+    background-image:
+        radial-gradient(
+            rgba($color-black, 0.5),
+            rgba($color-black, 0.9),
+            $color-black
+        ),
+        url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}

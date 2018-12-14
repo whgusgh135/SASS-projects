@@ -1,4 +1,5 @@
 .container {
+    padding: 5rem 2rem;
     display: grid;
     grid-template-rows: 6rem min-content;
     grid-template-columns:  [sidebar-start] 25rem

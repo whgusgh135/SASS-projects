@@ -1,0 +1,29 @@
+.navbar {
+    background-color: $color-grey-dark-1;
+    height: 6rem;
+    color: $color-grey-light-1;
+    font-size: 1.8rem;
+
+    width: 100vw;
+    
+    position: fixed;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__section {
+        display: flex;
+    }
+
+    &__item {
+        list-style: none;
+        margin: 0 2.5rem;
+        padding: 1rem .5rem;
+
+        &:hover {
+            cursor: pointer;
+            color: $color-white;
+        }
+    }
+}
