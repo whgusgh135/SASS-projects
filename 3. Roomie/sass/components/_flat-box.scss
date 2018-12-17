@@ -1,0 +1,11 @@
+.flat-box {
+    width: 30%;
+    height: 25rem;
+    background-color: $color-white; 
+    flex-wrap: wrap;
+
+    &__img {
+        width: 100%;
+        height: 100%;
+    }
+}

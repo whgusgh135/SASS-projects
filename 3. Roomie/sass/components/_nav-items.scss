@@ -15,8 +15,11 @@
     }
 
     &__profile {
+        text-decoration: none;
+        color: $color-grey-dark;
         display: flex;
         align-items: center;
+        padding-left: 2rem;
         
         &--img {
             height: 4.5rem;
@@ -25,7 +28,11 @@
         }
 
         &--name {
-            padding: 1rem;
+            padding: 2rem;
+        }
+
+        &:hover {
+            background-color: $color-grey-light;
         }
     }
 }

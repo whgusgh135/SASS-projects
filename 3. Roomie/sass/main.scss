@@ -4,10 +4,13 @@
 
 @import "components/nav-items";
 @import "components/side-items";
+@import "components/roomie-box";
+@import "components/button";
+@import "components/flat-box";
 
 @import "layout/container";
 @import "layout/navbar";
 @import "layout/sidebar";
-@import "layout/flat-sec";
+@import "layout/home-list";
 
 @import "pages/home";
