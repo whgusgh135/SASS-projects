@@ -112,7 +112,7 @@ button {
   padding: 5rem 2rem;
   display: grid;
   grid-template-rows: 6rem min-content;
-  grid-template-columns: [sidebar-start] 25rem [sidebar-end full-start] minmax(4rem, 1fr) [center-start] 1fr [center-end] minmax(4rem, 1fr) [full-end]; }
+  grid-template-columns: [sidebar-start] 25rem [sidebar-end full-start] 1fr [full-end]; }
 
 .navbar {
   background-color: white;
@@ -129,6 +129,7 @@ button {
   align-items: stretch; }
 
 .home-list {
+  grid-column: center-start / center-end;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -145,4 +146,5 @@ button {
 .home {
   background-color: #F5F5F5;
   grid-column: full-start / full-end;
-  height: 100vh; }
+  display: grid;
+  grid-template-columns: [left-space] minmax(4rem, 1fr) [center-start] 100rem [center-end] minmax(4rem, 1fr) [right-space]; }
